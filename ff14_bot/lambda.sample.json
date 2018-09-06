@@ -1,0 +1,14 @@
+{
+  "name": "ff14-bot",
+  "description": "FF14 bot",
+  "region": "us-west-2",
+  "runtime": "python3.6",
+  "handler": "lambda_function.lambda_handler",
+  "role": "",
+  "requirements": ["requests", "beautifulsoup4", "pynamodb", "dictdiffer", "slackweb"],
+  "ignore": [],
+  "timeout": 3,
+  "memory": 128,
+  "vpc": {},
+  "tracing": {}
+}

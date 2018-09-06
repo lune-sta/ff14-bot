@@ -1,0 +1,6 @@
+*.iml
+.idea/
+ff14_bot/config.py
+ff14_bot/lambda.json
+ff14_bot/__pycache__/
+ff14_bot/model/__pycache__/

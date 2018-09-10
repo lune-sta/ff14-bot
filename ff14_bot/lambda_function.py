@@ -45,6 +45,7 @@ def _get_character_levels_diff_list(character_id: int, user_name: str) -> list:
         save.name = user_name
         save.levels = levels
         save.save()
+        return []
 
 
 def lambda_handler(event, context):
